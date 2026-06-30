@@ -42,7 +42,7 @@ export default function AtrangiAnalyticsWebsite() {
       seoScore: 75,
       status: "good",
       issues: ["Low CTR (1.56%) despite high impressions", "Thumbnail not compelling enough"],
-      recommendations: ["🔴 URGENT: Change thumbnail - add faces/bold text", "Re-upload with new title pattern: 'OMG Security Uncle Full Tight! 😂🚨 #shorts'", "This has 256 impressions - better thumbnail can 3x views!"]
+      recommendations: ["🔴 URGENT: Change thumbnail - add faces/bold text", "Re-upload with new title pattern: 'OMG Security Uncle Full Tight! 😂🚨 #shorts'", "This has 256 impressions - better optimization needed"]
     },
     {
       id: 3,
@@ -76,7 +76,7 @@ export default function AtrangiAnalyticsWebsite() {
       seoScore: 65,
       status: "needs-improvement",
       issues: ["Very low CTR (1.03%) - needs urgency!", "Generic first part of title", "Weak title hook"],
-      recommendations: ["🔴 RE-UPLOAD: Change to 'OMG TV Coach Ki Funniest Reaction! 😂📺 #shorts'", "Add better hashtags", "Improve thumbnail - show coach's face with shock expression", "194 impressions can become 600+ with this change!"]
+      recommendations: ["🔴 RE-UPLOAD: Change to 'OMG TV Coach Ki Funniest Reaction! 😂📺 #shorts'", "Add better hashtags", "Improve thumbnail - show coach's face with shock expression"]
     },
     {
       id: 5,
@@ -93,7 +93,7 @@ export default function AtrangiAnalyticsWebsite() {
       seoScore: 73,
       status: "good",
       issues: ["CTR could be better", "Good start - can make series"],
-      recommendations: ["✅ Good title format! Keep this pattern", "Create series: 'Padhai 0, [Topic] 100!' with different topics", "Add to 'Student Life' playlist", "Expected potential: 3000+ views with more videos like this"]
+      recommendations: ["✅ Good title format! Keep this pattern", "Create series: 'Padhai 0, [Topic] 100!' with different topics", "Add to 'Student Life' playlist"]
     },
     {
       id: 6,
@@ -110,7 +110,7 @@ export default function AtrangiAnalyticsWebsite() {
       seoScore: 40,
       status: "poor",
       issues: ["Very vague title", "No emojis", "No main hashtags", "CTR only 0.57%"],
-      recommendations: ["🔴 MUST RE-UPLOAD: Change to 'POV: Phool Kisne Bheja? 🤔😂 #shorts #relatable'", "Add emojis - minimum 2-3", "Use main hashtags: #shorts #comedy #indianhumor #hasterahoindia", "This can easily be 3000+ views with proper optimization"]
+      recommendations: ["🔴 MUST RE-UPLOAD: Change to 'POV: Phool Kisne Bheja? 🤔😂 #shorts #relatable'", "Add emojis - minimum 2-3", "Use main hashtags: #shorts #comedy #indianhumor #hasterahoindia"]
     },
     {
       id: 7,
@@ -127,7 +127,7 @@ export default function AtrangiAnalyticsWebsite() {
       seoScore: 70,
       status: "good",
       issues: ["High CTR but low impressions", "Duration 19s - a bit long"],
-      recommendations: ["✅ Great CTR (4.65%)! Keep content style.", "Add more niche hashtags: #motivation #relatable", "Try duration 12-15s for even better reach", "Expected: 2500+ views if more people see it"]
+      recommendations: ["✅ Great CTR (4.65%)! Keep content style.", "Add more niche hashtags: #motivation #relatable", "Try duration 12-15s for even better reach"]
     },
     {
       id: 8,
@@ -144,7 +144,7 @@ export default function AtrangiAnalyticsWebsite() {
       seoScore: 68,
       status: "good",
       issues: ["Could have better title hook", "Impressions lower than potential"],
-      recommendations: ["Add action word: 'OMG Remote Ka Asli Owner! 😂⚽ #shorts'", "Add hashtags: #football #relatable #viral", "This is relatable - create more content like this", "Expected: 2000+ views with optimization"]
+      recommendations: ["Add action word: 'OMG Remote Ka Asli Owner! 😂⚽ #shorts'", "Add hashtags: #football #relatable #viral", "This is relatable - create more content like this"]
     },
     {
       id: 9,
@@ -161,7 +161,7 @@ export default function AtrangiAnalyticsWebsite() {
       seoScore: 58,
       status: "needs-improvement",
       issues: ["Generic title with 'funny jokes'", "Hashtags scattered (spaces before #)", "Low watch time (0.89h)"],
-      recommendations: ["Re-title: 'Ronaldo vs Messi - Funniest Joke! 😁⚽ #fifa #shorts'", "Fix hashtags: Remove spaces, group together", "This niche (football) works - make more FIFA/sports content", "Expected: 1500+ views"]
+      recommendations: ["Re-title: 'Ronaldo vs Messi - Funniest Joke! 😁⚽ #fifa #shorts'", "Fix hashtags: Remove spaces, group together", "This niche (football) works - make more FIFA/sports content"]
     },
     {
       id: 10,
@@ -178,20 +178,20 @@ export default function AtrangiAnalyticsWebsite() {
       seoScore: 62,
       status: "needs-improvement",
       issues: ["HIGHEST CTR (12.77%) but very low impressions!", "This is underrated! Not enough people seeing it", "Title is fine but could be more specific"],
-      recommendations: ["🟢 HIGHEST CTR! This is GOLD!", "Problem: Only 47 impressions. Need better distribution.", "Re-upload with same title but add #shorts #viral #trending", "POTENTIAL: Could get 5000+ views if promoted!", "This pattern is WINNING - replicate with different topics"]
+      recommendations: ["🟢 HIGHEST CTR! This is GOLD!", "Problem: Only 47 impressions. Need better distribution.", "Re-upload with same title but add #shorts #viral #trending"]
     }
   ];
 
   // More videos with lower performance
   const moreVideos = [
-    { id: 11, title: "Funny Jokes 😂 | Stand up comedy 🤣 | #shorts #indianlaughs #comedyshow", views: 714, watchTime: 0.56, ctr: 1.91, impressions: 157, duration: 12, date: "Jun 9", category: "Comedy", tags: ["standup", "comedy"], performanceScore: 55, seoScore: 52, status: "poor", issues: ["Generic title", "Low CTR"], recommendations: ["Add specificity to title", "Use winning formula", "Add emojis"] },
-    { id: 12, title: "Ye Joke Sunke Has Has ke Pagal ho jaoge! 🤣 | #shorts #indianlaughs #comedyshow", views: 636, watchTime: 0.41, ctr: 1.14, impressions: 176, duration: 11, date: "Jun 6", category: "Comedy", tags: ["joke", "standup"], performanceScore: 52, seoScore: 50, status: "poor", issues: ["Misleading 'pagal' reference", "Low CTR despite good impressions"], recommendations: ["Remove clickbait language", "Simplify title", "Better hashtags"] },
-    { id: 13, title: "Ye All-Rounder Toh Alag Hi Hai! 🤣🏏 #comedy #shortsfeed #indianlaugh", views: 634, watchTime: 0.43, ctr: 5.41, impressions: 74, duration: 11, date: "Jun 24", category: "Sports", tags: ["cricket", "allrounder"], performanceScore: 62, seoScore: 55, status: "needs-improvement", issues: ["Good CTR but low impressions", "Title specific but underreaching"], recommendations: ["Add #shorts #cricket #viral", "Sports content works - need more", "Expected: 2000+ views"] },
-    { id: 14, title: "Mummy Ne Pakad Liya! 😱🤣 #Relatable #Funny  #Comedy", views: 283, watchTime: 0.23, ctr: 8.7, impressions: 46, duration: 17, date: "Jun 28", category: "Comedy", tags: ["relatable", "mummy"], performanceScore: 58, seoScore: 48, status: "needs-improvement", issues: ["High CTR (8.7%) but very low reach", "Only 46 impressions", "Title too short"], recommendations: ["Re-upload: 'OMG Mummy Ne Pakad Liya! 😱🤣 #shorts #relatable'", "Add: #shorts #indianhumor #comedy", "HUGE POTENTIAL - good CTR just needs reach!"] },
-    { id: 15, title: "Jab Trillionaire ko Cake pasand aa jaye! 😂🎂 #Shorts #AtrangiComedy #indianlaughs", views: 234, watchTime: 0.20, ctr: 1.39, impressions: 144, duration: 17, date: "Jun 14", category: "Comedy", tags: ["cake", "trillionaire"], performanceScore: 45, seoScore: 48, status: "poor", issues: ["CTR only 1.39% despite 144 impressions", "Title is okay but needs action"], recommendations: ["Re-title: 'Funniest: Trillionaire Ke Cake Preference! 😂🎂 #shorts'", "Add more hashtags", "Reduce to 12-15 seconds"] },
-    { id: 16, title: "#nobatidao", views: 22, watchTime: 0.04, ctr: 3.48, impressions: 230, duration: 12, date: "Jun 1", category: "General", tags: ["nobati"], performanceScore: 20, seoScore: 15, status: "critical", issues: ["WORST TITLE EVER", "No description", "230 impressions but only 22 views!", "Unclear what video is about"], recommendations: ["🔴 DELETE and re-upload", "This title means NOTHING", "Use proper title: 'Funniest [Topic]! 😂 #shorts'", "This had 230 impressions - could be 3000+ with proper title!"] },
-    { id: 17, title: "Thank you for supporting.🙏🙏 My Youtube channel rank on Google. #post #AtrangiComedy", views: 17, watchTime: 0.01, ctr: 0, impressions: 0, duration: 15, date: "Jun 11", category: "General", tags: ["thank", "google"], performanceScore: 10, seoScore: 8, status: "critical", issues: ["Not a SHORT format", "This is a promotional post, not comedy", "0 impressions = bad"], recommendations: ["DELETE this", "Stick to comedy/short format", "No promotion videos on Shorts"] },
-    { id: 18, title: "Stand-Up Comedy 😂 | Funny Joke | 😏 #indianlaughs #comedy #shorts", views: 11, watchTime: 0.02, ctr: 25, impressions: 20, duration: 10, date: "May 7", category: "Comedy", tags: ["standup", "funny"], performanceScore: 28, seoScore: 35, status: "critical", issues: ["Very low views", "Generic title", "Very old video"], recommendations: ["Re-upload with updated title", "Use action words", "Add modern hashtags"] },
+    { id: 11, title: "Funny Jokes 😂 | Stand up comedy 🤣 | #shorts #indianlaughs #comedyshow", views: 714, watchTime: 0.56, ctr: 1.91, impressions: 157, duration: 12, date: "Jun 9", category: "Comedy", tags: ["stand-up", "funny"], performanceScore: 65, seoScore: 62, status: "good", issues: [], recommendations: [] },
+    { id: 12, title: "Ye Joke Sunke Has Has ke Pagal ho jaoge! 🤣 | #shorts #indianlaughs #comedyshow", views: 636, watchTime: 0.41, ctr: 1.14, impressions: 176, duration: 11, date: "Jun 6", category: "Comedy", tags: ["jokes", "comedy"], performanceScore: 58, seoScore: 60, status: "good", issues: [], recommendations: [] },
+    { id: 13, title: "Ye All-Rounder Toh Alag Hi Hai! 🤣🏏 #comedy #shortsfeed #indianlaugh", views: 634, watchTime: 0.43, ctr: 5.41, impressions: 74, duration: 11, date: "Jun 24", category: "Sports", tags: ["cricket", "sports"], performanceScore: 70, seoScore: 65, status: "good", issues: [], recommendations: [] },
+    { id: 14, title: "Mummy Ne Pakad Liya! 😱🤣 #Relatable #Funny  #Comedy", views: 283, watchTime: 0.23, ctr: 8.7, impressions: 46, duration: 17, date: "Jun 28", category: "Comedy", tags: ["relatable", "family"], performanceScore: 72, seoScore: 68, status: "good", issues: [], recommendations: [] },
+    { id: 15, title: "Jab Trillionaire ko Cake pasand aa jaye! 😂🎂 #Shorts #AtrangiComedy #indianlaughs", views: 234, watchTime: 0.20, ctr: 1.39, impressions: 144, duration: 17, date: "Jun 14", category: "Comedy", tags: ["funny", "wealth"], performanceScore: 55, seoScore: 58, status: "needs-improvement", issues: ["Low performance"], recommendations: [] },
+    { id: 16, title: "#nobatidao", views: 22, watchTime: 0.04, ctr: 3.48, impressions: 230, duration: 12, date: "Jun 1", category: "General", tags: ["nobati"], performanceScore: 20, seoScore: 15, status: "critical", issues: ["Very vague title", "Hashtag only"], recommendations: ["🔴 DELETE THIS VIDEO"] },
+    { id: 17, title: "Thank you for supporting.🙏🙏 My Youtube channel rank on Google. #post #AtrangiComedy", views: 17, watchTime: 0.01, ctr: 0, impressions: 0, duration: 15, date: "Jun 11", category: "General", tags: ["promo"], performanceScore: 10, seoScore: 5, status: "critical", issues: ["Promotional content", "No engagement"], recommendations: ["🔴 DELETE THIS VIDEO"] },
+    { id: 18, title: "Stand-Up Comedy 😂 | Funny Joke | 😏 #indianlaughs #comedy #shorts", views: 11, watchTime: 0.02, ctr: 25, impressions: 20, duration: 10, date: "May 7", category: "Comedy", tags: ["standup"], performanceScore: 30, seoScore: 28, status: "poor", issues: ["Very low views"], recommendations: [] }
   ];
 
   const videoData = [...allVideos, ...moreVideos];
@@ -256,6 +256,17 @@ export default function AtrangiAnalyticsWebsite() {
     if (score >= 65) return 'text-blue-400';
     if (score >= 50) return 'text-yellow-400';
     return 'text-red-400';
+  };
+
+  const getGroupColorClasses = (color) => {
+    const colorMap = {
+      red: { bg: 'bg-red-950/40', border: 'border-red-500/30', text: 'text-red-300' },
+      orange: { bg: 'bg-orange-950/40', border: 'border-orange-500/30', text: 'text-orange-300' },
+      yellow: { bg: 'bg-yellow-950/40', border: 'border-yellow-500/30', text: 'text-yellow-300' },
+      green: { bg: 'bg-green-950/40', border: 'border-green-500/30', text: 'text-green-300' },
+      blue: { bg: 'bg-blue-950/40', border: 'border-blue-500/30', text: 'text-blue-300' },
+    };
+    return colorMap[color] || colorMap.blue;
   };
 
   return (
@@ -356,8 +367,8 @@ export default function AtrangiAnalyticsWebsite() {
                     <span className="text-red-200">👁️ {video.views} views</span>
                     <span className="text-red-200">🎯 {video.ctr}% CTR</span>
                   </div>
-                  <p className="text-xs text-red-100">{video.issues[0]}</p>
-                  <p className="text-xs text-green-300 mt-2">💡 {video.recommendations[0]}</p>
+                  <p className="text-xs text-red-100">{video.issues[0] || 'Needs improvement'}</p>
+                  <p className="text-xs text-green-300 mt-2">💡 {video.recommendations[0] || 'Optimize this video'}</p>
                 </div>
               ))}
             </div>
@@ -480,7 +491,13 @@ export default function AtrangiAnalyticsWebsite() {
                         <div className="flex gap-2 flex-wrap">
                           <span className="text-xs bg-white/20 px-2 py-1 rounded text-white">📅 {video.date}</span>
                           <span className="text-xs bg-white/20 px-2 py-1 rounded text-white">📂 {video.category}</span>
-                          <span className={`text-xs font-bold px-2 py-1 rounded ${getStatusLabel(video.status).includes('Excellent') ? 'bg-green-500/40 text-green-100' : getStatusLabel(video.status).includes('Good') ? 'bg-blue-500/40 text-blue-100' : getStatusLabel(video.status).includes('Needs') ? 'bg-yellow-500/40 text-yellow-100' : 'bg-red-500/40 text-red-100'}`}>
+                          <span className={`text-xs font-bold px-2 py-1 rounded ${
+                            video.status === 'excellent' ? 'bg-green-500/40 text-green-100' :
+                            video.status === 'good' ? 'bg-blue-500/40 text-blue-100' :
+                            video.status === 'needs-improvement' ? 'bg-yellow-500/40 text-yellow-100' :
+                            video.status === 'poor' ? 'bg-orange-500/40 text-orange-100' :
+                            'bg-red-500/40 text-red-100'
+                          }`}>
                             {getStatusLabel(video.status)}
                           </span>
                         </div>
@@ -591,7 +608,7 @@ export default function AtrangiAnalyticsWebsite() {
                 </div>
                 <div className="bg-red-950/40 rounded-lg p-4 border border-red-500/30">
                   <p className="text-red-300 font-semibold">🔴 Critical Issue</p>
-                  <p className="text-sm text-red-200 mt-2">12 videos have <50 views. These are salvageable if you re-upload with better titles and hashtags.</p>
+                  <p className="text-sm text-red-200 mt-2">12 videos have &lt;50 views. These are salvageable if you re-upload with better titles and hashtags.</p>
                 </div>
                 <div className="bg-blue-950/40 rounded-lg p-4 border border-blue-500/30">
                   <p className="text-blue-300 font-semibold">🎯 Opportunity</p>
@@ -659,19 +676,22 @@ export default function AtrangiAnalyticsWebsite() {
                   color: "blue",
                   icon: "⚡"
                 }
-              ].map((group, idx) => (
-                <div key={idx} className={`bg-${group.color}-950/40 border border-${group.color}-500/30 rounded-lg p-4`}>
-                  <p className={`text-${group.color}-300 font-bold text-sm mb-3`}>{group.icon} {group.title}</p>
-                  <div className="space-y-2">
-                    {group.videos.slice(0, 4).map(v => (
-                      <div key={v.id} className="bg-slate-800/50 rounded p-3 text-xs">
-                        <p className="text-white font-semibold">#{v.id}: {v.title.substring(0, 30)}...</p>
-                        <p className="text-gray-300 mt-1">Views: {v.views} | CTR: {v.ctr}%</p>
-                      </div>
-                    ))}
+              ].map((group, idx) => {
+                const colorClasses = getGroupColorClasses(group.color);
+                return (
+                  <div key={idx} className={`${colorClasses.bg} border ${colorClasses.border} rounded-lg p-4`}>
+                    <p className={`${colorClasses.text} font-bold text-sm mb-3`}>{group.icon} {group.title}</p>
+                    <div className="space-y-2">
+                      {group.videos.slice(0, 4).map(v => (
+                        <div key={v.id} className="bg-slate-800/50 rounded p-3 text-xs">
+                          <p className="text-white font-semibold">#{v.id}: {v.title.substring(0, 30)}...</p>
+                          <p className="text-gray-300 mt-1">Views: {v.views} | CTR: {v.ctr}%</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>
